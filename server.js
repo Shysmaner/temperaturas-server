@@ -5,10 +5,10 @@ import mysql from "mysql2/promise";
 async function startServer() {
   const PORT = 5000;
   const connection = await mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "temperaturas"
+    host: "localhos",
+    user: "phpmyadmin",
+    password: "rootroot",
+    database: "temperaturas23060350"
   });
 
   const server = http.createServer(async (req, res) => {
